@@ -1,6 +1,10 @@
 # @semrel-extra/npm
 Drop-in-repl for standard npm plugin to handle `npm-whoami` throttling issue for monorepos: [semantic-release/npm/issues/414](https://github.com/semantic-release/npm/issues/414)
 
+[![CI](https://github.com/semrel-extra/npm/workflows/CI/badge.svg)](https://github.com/semrel-extra/npm/actions)
+[![Maintainability](https://api.codeclimate.com/v1/badges/06ca7c8e9e5f8a2c5976/maintainability)](https://codeclimate.com/github/semrel-extra/npm/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/06ca7c8e9e5f8a2c5976/test_coverage)](https://codeclimate.com/github/semrel-extra/npm/test_coverage)
+
 ### Install
 ```shell
 npm i -D @semrel-extra/npm

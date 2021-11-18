@@ -101,7 +101,7 @@ jobs:
         run: npm run test # It's faster than to extract coverage from the artifact
 
       - name: Symlink
-        run: ln -s ../../ ./node_modules/@semrel-extra/npm
+        run: mkdir -p ./node_modules/@semrel-extra && ln -s ../../ ./node_modules/@semrel-extra/npm
 
       - name: Codeclimate
         uses: paambaati/codeclimate-action@v3.0.0
