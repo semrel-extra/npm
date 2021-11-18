@@ -4,7 +4,7 @@
   "description": "Drop-in-repl for @semantic-release/npm plugin to handle `npm-whoami` throttling issue for monorepos",
   "main": "./src/main/js/index.js",
   "scripts": {
-    "test": "node ./src/test/index.js"
+    "test": "uvu ./src/test/*"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/semrel-extra/npm#readme",
   "devDependencies": {
-    "@semantic-release/npm": "^8.0.3"
+    "@semantic-release/npm": "^8.0.3",
+    "sinon": "^12.0.1",
+    "uvu": "^0.5.2"
   }
 }
