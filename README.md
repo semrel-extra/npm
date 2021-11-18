@@ -1,5 +1,5 @@
 # @semrel-extra/npm
-Drop-in-repl npm plugin to handle `npm-whoami` throttling issue for monorepos: https://github.com/semantic-release/npm/issues/414
+Drop-in-repl for standard npm plugin to handle `npm-whoami` throttling issue for monorepos: [semantic-release/npm/issues/414](https://github.com/semantic-release/npm/issues/414)
 
 ### Install
 ```shell
