@@ -1,11 +1,10 @@
 const plugin = require('@semantic-release/npm')
 const { castArray } = require('lodash')
 
-let verified
 let result
 
 async function verifyConditionsHooked(pluginConfig, context) {
-  if (verified) {
+  if (result) {
     return result
   }
 
@@ -15,10 +14,9 @@ async function verifyConditionsHooked(pluginConfig, context) {
     pluginConfig.path = '@semantic-release/npm'
   }
 
-  return plugin.verifyConditions(pluginConfig, context).then(r => {
-    result = r
-    verified = true
-  })
+  result = plugin.verifyConditions(pluginConfig, context)
+
+  return result
 }
 
 verifyConditionsHooked._reset = () => {
