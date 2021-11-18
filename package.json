@@ -1,0 +1,26 @@
+{
+  "name": "@semrel-extra/npm",
+  "version": "0.0.0",
+  "description": "Drop-in-repl for @semantic-release/npm plugin to handle `npm-whoami` throttling issue for monorepos",
+  "main": "./src/main/js/index.js",
+  "scripts": {
+    "test": "node ./src/test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/semrel-extra/npm.git"
+  },
+  "keywords": [
+    "semantic-release",
+    "npm"
+  ],
+  "author": "Anton Golub <antongolub@antongolub.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/semrel-extra/npm/issues"
+  },
+  "homepage": "https://github.com/semrel-extra/npm#readme",
+  "devDependencies": {
+    "@semantic-release/npm": "^8.0.3"
+  }
+}
