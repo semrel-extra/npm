@@ -6,6 +6,11 @@
   "scripts": {
     "test": "uvu ./src/test/*"
   },
+  "files": [
+    "src/main",
+    "LICENSE",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/semrel-extra/npm.git"
