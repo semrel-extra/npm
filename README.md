@@ -33,7 +33,6 @@ Follow [its docs](https://github.com/semantic-release/npm/blob/master/README.md)
     }]
   ]
 }
-
 ```
 
 ### License
