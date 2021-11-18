@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/semrel-extra/npm/compare/v1.1.0...v1.2.0) (2021-11-18)
+
+
+### Features
+
+* memoize verifyConditions result as promise ([0d3b6ea](https://github.com/semrel-extra/npm/commit/0d3b6ea7be9f2cef0350630eb99aa6a80833e73f))
+
 # [1.1.0](https://github.com/semrel-extra/npm/compare/v1.0.0...v1.1.0) (2021-11-18)
 
 
