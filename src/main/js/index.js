@@ -4,6 +4,7 @@ const { castArray } = require('lodash')
 let result
 
 async function verifyConditionsHooked(pluginConfig, context) {
+  // _.once
   if (result) {
     return result
   }
@@ -19,9 +20,9 @@ async function verifyConditionsHooked(pluginConfig, context) {
   return result
 }
 
+// reset `onced` for testing purpose
 verifyConditionsHooked._reset = () => {
   result = undefined
-  verified = undefined
 }
 
 module.exports = { ...plugin, verifyConditions: verifyConditionsHooked }
