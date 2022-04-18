@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/semrel-extra/npm/compare/v1.2.1...v1.2.2) (2022-04-18)
+
+
+### Bug Fixes
+
+* if first pkg is private it does not persist npmrc ([952f58e](https://github.com/semrel-extra/npm/commit/952f58ed252bb79d4df4b7e4c30dc62d8aa04db2))
+
 ## [1.2.1](https://github.com/semrel-extra/npm/compare/v1.2.0...v1.2.1) (2022-04-18)
 
 
