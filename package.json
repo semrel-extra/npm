@@ -1,6 +1,6 @@
 {
   "name": "@semrel-extra/npm",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Drop-in-repl for @semantic-release/npm plugin to handle `npm-whoami` throttling issue for monorepos",
   "publishConfig": {
     "access": "public"

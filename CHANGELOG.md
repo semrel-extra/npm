@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/semrel-extra/npm/compare/v1.2.0...v1.2.1) (2022-04-18)
+
+
+### Bug Fixes
+
+* **deps:** up @semantic-release/npm to 9.0.1 ([ce7170c](https://github.com/semrel-extra/npm/commit/ce7170cfbec5853b576cdb576ced870f92a3bb91))
+
 # [1.2.0](https://github.com/semrel-extra/npm/compare/v1.1.0...v1.2.0) (2021-11-18)
 
 
