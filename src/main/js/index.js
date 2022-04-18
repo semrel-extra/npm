@@ -1,12 +1,13 @@
 const plugin = require('@semantic-release/npm')
+const getPkg = require('@semantic-release/npm/lib/get-pkg');
 const { castArray } = require('lodash')
 
-let result
+let memo
 
 async function verifyConditionsHooked(pluginConfig, context) {
   // _.once
-  if (result) {
-    return result
+  if (memo) {
+    return memo
   }
 
   // Options remapping
@@ -15,14 +16,19 @@ async function verifyConditionsHooked(pluginConfig, context) {
     pluginConfig.path = '@semantic-release/npm'
   }
 
-  result = plugin.verifyConditions(pluginConfig, context)
+  const _result = plugin.verifyConditions(pluginConfig, context)
+  const pkg = await getPkg(pluginConfig, context)
 
-  return result
+  if (pluginConfig.npmPublish !== false && pkg.private !== true) {
+    memo = _result
+  }
+
+  return _result
 }
 
 // reset `onced` for testing purpose
 verifyConditionsHooked._reset = () => {
-  result = undefined
+  memo = undefined
 }
 
 module.exports = { ...plugin, verifyConditions: verifyConditionsHooked }

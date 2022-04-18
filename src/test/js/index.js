@@ -1,3 +1,7 @@
+require.cache[require.resolve('@semantic-release/npm/lib/get-pkg')] = {
+  exports: () => ({private: false}),
+}
+
 const sinon = require('sinon')
 const { test } = require('uvu')
 const assert = require('uvu/assert')
