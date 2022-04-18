@@ -29,9 +29,9 @@
   },
   "homepage": "https://github.com/semrel-extra/npm#readme",
   "devDependencies": {
-    "@semantic-release/npm": "^9.0.0",
+    "@semantic-release/npm": "^9.0.1",
     "c8": "^7.11.0",
-    "sinon": "^13.0.1",
+    "sinon": "^13.0.2",
     "uvu": "^0.5.3"
   }
 }
