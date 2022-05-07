@@ -31,7 +31,7 @@
   "devDependencies": {
     "@semantic-release/npm": "^9.0.1",
     "c8": "^7.11.0",
-    "sinon": "^13.0.2",
+    "sinon": "^14.0.0",
     "uvu": "^0.5.3"
   }
 }
